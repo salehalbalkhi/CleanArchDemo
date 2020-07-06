@@ -19,11 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{FEA3D5D0-987
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{B1F88E06-6A3B-4EB9-B2F4-DA6FCDA69E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{D4F12D30-FF81-44EA-9E71-C3A947B81867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{D4F12D30-FF81-44EA-9E71-C3A947B81867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{61D7FED6-129A-480A-AC7D-F5F39D028AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{61D7FED6-129A-480A-AC7D-F5F39D028AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{8C733914-E90C-4EE8-B8EF-C9D724EA98B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{8C733914-E90C-4EE8-B8EF-C9D724EA98B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{A15A6125-34B2-41C8-9543-47B0EA8ABF33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{0533467F-7AF0-4E43-B4F8-A50DA07AF5A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,7 @@ Global
 		{D4F12D30-FF81-44EA-9E71-C3A947B81867} = {668BB5B5-8EB2-4A78-AA30-5F815322FC7C}
 		{61D7FED6-129A-480A-AC7D-F5F39D028AB9} = {98DB3CEB-2C21-4C59-B107-88A78C16030A}
 		{8C733914-E90C-4EE8-B8EF-C9D724EA98B9} = {FEA3D5D0-987E-4ADB-AAF7-C3F9C2B5DB35}
+		{0533467F-7AF0-4E43-B4F8-A50DA07AF5A3} = {0FA34B48-4A63-4572-BF79-0E39761D1564}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F966FA87-4718-42E4-BCCB-72C2B0007427}
